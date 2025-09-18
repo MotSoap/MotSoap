@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Configurateur Mot’Soap – Angoulême</title>
+  <link rel="stylesheet" href="https://ton-cdn/config.css">
+</head>
+<body>
+
+<div class="section">
+  <h2>Intérieur (40 € de base)</h2>
+  <div class="option-row forfait" data-price="40">
+    <div class="option-label">Forfait Intérieur</div>
+    <div class="option-check"></div>
+    <div class="info" data-tooltip="Inclut : vitres, plastiques, tapis, sièges.">i</div>
+  </div>
+  <!-- … autres options … -->
+</div>
+
+<div class="section total">
+  Coût total : <span id="total">0 €</span>
+</div>
+
+<div class="section form-section">
+  <h2>Vos coordonnées</h2>
+  <input type="text" id="nom" placeholder="Votre nom">
+  <input type="email" id="email" placeholder="Votre email">
+  <input type="tel" id="tel" placeholder="Votre numéro de téléphone">
+  <button class="btn" id="btn-devis">Demande de devis</button>
+  <div id="error-message"></div>
+</div>
+
+<script src="https://ton-cdn/config.js"></script>
+</body>
+</html>
