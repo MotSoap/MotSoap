@@ -1,7 +1,7 @@
 // Menu
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.getElementById("customNav");
-  const header = document.querySelector("hero"); // ton bloc avec la vidéo
+  const header = document.querySelector(".hero"); // ton bloc avec la vidéo
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > header.offsetHeight) {
