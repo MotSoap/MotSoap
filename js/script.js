@@ -1,3 +1,17 @@
+// Menu
+document.addEventListener("DOMContentLoaded", () => {
+  const nav = document.getElementById("customNav");
+  const header = document.querySelector("header"); // ton bloc avec la vidéo
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > header.offsetHeight) {
+      nav.classList.add("show");
+    } else {
+      nav.classList.remove("show");
+    }
+  });
+});
+
 // Expertise
     const expertiseItems = document.querySelectorAll('.expertise-item');
     const expertiseSection = document.querySelector('.expertise');
