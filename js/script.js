@@ -1,7 +1,9 @@
 // Menu
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   const nav = document.getElementById("customNav");
-  const header = document.querySelector(".hero"); // ton bloc avec la vidéo
+  const header = document.querySelector(".hero"); // ton bloc vidéo
+
+  if (!header) return; // sécurité
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > header.offsetHeight) {
@@ -11,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
 // Expertise
     const expertiseItems = document.querySelectorAll('.expertise-item');
