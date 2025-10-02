@@ -1,35 +1,278 @@
 <!DOCTYPE html>
 <html lang="fr">
+  
 <head>
   <meta charset="UTF-8">
-  <title>Configurateur Mot’Soap – Angoulême</title>
-  <link rel="stylesheet" href="https://ton-cdn/config.css">
+  <title>Mot'Soap</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+  
 <body>
+  <!-- HERO -->
+<section class="hero">
+  <video autoplay muted loop>
+    <source src="https://mediaassets.airbus.com/medias/domain38/media102247/674215-psir70agh2-720.mp4" type="video/mp4">
+  </video>
+  <div class="overlay"></div>
+  <h1>Mot'Soap – Détailing & Esthétique Auto</h1>
+</section>
 
-<div class="section">
-  <h2>Intérieur (40 € de base)</h2>
-  <div class="option-row forfait" data-price="40">
-    <div class="option-label">Forfait Intérieur</div>
-    <div class="option-check"></div>
-    <div class="info" data-tooltip="Inclut : vitres, plastiques, tapis, sièges.">i</div>
+<!-- EXPERTISE -->
+<section class="expertise">
+  <div class="expertise-item" style="background-image: url('https://res.cloudinary.com/df9icsz95/image/upload/v1759324762/nano-banana-2025-10-01T09-33-36_m8kpxm.png');">
+    <div class="expertise-content">
+      <h3>Intérieur</h3>
+      <p>Nettoyage complet et soins des surfaces intérieures.</p>
+      <a href="#configurateur">Configurer</a>
+    </div>
   </div>
-  <!-- … autres options … -->
+  <div class="expertise-item" style="background-image:url('https://res.cloudinary.com/df9icsz95/image/upload/v1759323655/Ext%C3%A9rieur_hkeslk.png');">
+    <div class="expertise-content">
+      <h3>Extérieur</h3>
+      <p>Prélavage, shampoing, séchage, et brillance optimale.</p>
+      <a href="#configurateur">Configurer</a>
+    </div>
+  </div>
+  <div class="expertise-item" style="background-image:url('https://res.cloudinary.com/df9icsz95/image/upload/v1759325113/Protection_qubviy.png');">
+    <div class="expertise-content">
+      <h3>Protection</h3>
+      <p>Traitement céramique hydrophobe et durable.</p>
+      <a href="#configurateur">Configurer</a>
+    </div>
+  </div>
+  <div class="expertise-item" style="background-image:url('https://res.cloudinary.com/df9icsz95/image/upload/v1759325111/R%C3%A9novation_y0zqyo.png');">
+    <div class="expertise-content">
+      <h3>Rénovation</h3>
+      <p>Restauration d’optiques et remise à neuf esthétique.</p>
+      <a href="#configurateur">Configurer</a>
+    </div>
+  </div>
+</section>
+
+<!-- POURQUOI -->
+<section class="pourquoi">
+  <h2>Pourquoi faire nettoyer sa voiture avec Mot'Soap ?</h2>
+  <div class="pourquoi-grid">
+    <div class="pourquoi-item">
+      <h3>💎 Esthétique</h3>
+      <p>Préserver la brillance et l’apparence comme neuve de votre véhicule.</p>
+    </div>
+    <div class="pourquoi-item">
+      <h3>🛡 Protection</h3>
+      <p>Allonger la durée de vie des matériaux grâce à des traitements adaptés.</p>
+    </div>
+    <div class="pourquoi-item">
+      <h3>💰 Valeur</h3>
+      <p>Maintenir une meilleure cote lors de la revente de votre voiture.</p>
+    </div>
+    <div class="pourquoi-item">
+      <h3>😌 Confort</h3>
+      <p>Profiter d’un habitacle sain, propre et agréable au quotidien.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONFIGURATEUR -->
+<div id="configurateur">
+    <!-- INTÉRIEUR -->
+    <div class="section">
+    <h2>Intérieur (40 € de base)</h2>
+
+    <div class="option-row forfait" data-price="40">
+        <div class="option-label">Forfait Intérieur</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclut : vitres & pare-brise, plastiques intérieurs, montants de portières, aspiration tapis & sièges.">i</div>
+    </div>
+
+    <!-- inclus -->
+    <div class="option-row included" data-price="0">
+        <div class="option-label">Vitres & pare-brise</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclus dans le forfait Intérieur.">i</div>
+    </div>
+
+    <div class="option-row included" data-price="0">
+        <div class="option-label">Plastiques intérieurs</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclus dans le forfait Intérieur.">i</div>
+    </div>
+
+    <div class="option-row included" data-price="0">
+        <div class="option-label">Montants des portières</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclus dans le forfait Intérieur.">i</div>
+    </div>
+
+    <div class="option-row included" data-price="0">
+        <div class="option-label">Aspiration tapis & sièges</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclus dans le forfait Intérieur.">i</div>
+    </div>
+
+    <!-- options -->
+    <div class="option-row" data-price="25">
+        <div class="option-label">Soins et traitement des cuirs (+25 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Nettoyage et protection des surfaces en cuir (anti-UV, anti-dessèchement).">i</div>
+    </div>
+
+    <div class="option-row" data-price="30">
+        <div class="option-label">Injection/extraction sièges (+30 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Nettoyage en profondeur des tissus pour éliminer taches et odeurs.">i</div>
+    </div>
+    </div>
+
+    <!-- EXTÉRIEUR -->
+    <div class="section">
+    <h2>Extérieur (50 € de base)</h2>
+
+    <div class="option-row forfait" data-price="50">
+        <div class="option-label">Forfait Extérieur</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclut : jantes & passages de roue, carrosserie, vitres extérieures.">i</div>
+    </div>
+
+    <!-- inclus -->
+    <div class="option-row included" data-price="0">
+        <div class="option-label">Jantes & passages de roue</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclus dans le forfait Extérieur.">i</div>
+    </div>
+
+    <div class="option-row included" data-price="0">
+        <div class="option-label">Carrosserie</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclus dans le forfait Extérieur (prélavage + shampoing manuel + rinçage + séchage).">i</div>
+    </div>
+
+    <div class="option-row included" data-price="0">
+        <div class="option-label">Vitres extérieures</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Inclus dans le forfait Extérieur.">i</div>
+    </div>
+
+    <!-- options -->
+    <div class="option-row" data-price="30">
+        <div class="option-label">Compartiment moteur (+30 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Dégraissage doux, rinçage maîtrisé, protection des plastiques.">i</div>
+    </div>
+
+    <div class="option-row" data-price="40">
+        <div class="option-label">Décontamination carrosserie/jantes (+40 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Élimination des particules ferreuses et dépôts incrustés pour une surface lisse.">i</div>
+    </div>
+    </div>
+
+    <!-- PROTECTION CÉRAMIQUE -->
+    <div class="section">
+    <h2>Protection céramique</h2>
+
+    <div class="option-row" data-price="50">
+        <div class="option-label">Pare-brise (+50 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Hydrophobie renforcée : meilleure visibilité sous la pluie, encrassement réduit.">i</div>
+    </div>
+
+    <div class="option-row" data-price="60">
+        <div class="option-label">Jantes (+60 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Limite l’accroche de la poussière de frein, nettoyage facilité.">i</div>
+    </div>
+
+    <div class="option-row" data-price="150">
+        <div class="option-label">Carrosserie (+150 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Protection durable, brillance accrue et effet déperlant.">i</div>
+    </div>
+
+    <div class="option-row" data-price="70">
+        <div class="option-label">Tissus intérieurs (+70 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Anti-taches, facilite l’entretien au quotidien.">i</div>
+    </div>
+
+    <div class="option-row" data-price="50">
+        <div class="option-label">Plastiques intérieurs (+50 €)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Protection anti-UV, limite le ternissement et les micro-rayures.">i</div>
+    </div>
+    </div>
+
+    <!-- RÉNOVATION -->
+    <div class="section">
+    <h2>Rénovation</h2>
+
+    <div class="option-row" data-price="80">
+        <div class="option-label">Optiques (80 € les deux)</div>
+        <div class="option-check"></div>
+        <div class="info" data-tooltip="Restaure la transparence, améliore l’éclairage et l’esthétique, utile pour le contrôle technique.">i</div>
+    </div>
+    </div>
+
+    <div class="section total">
+    Coût total : <span id="total">0 €</span>
+    </div>
+
+    <div class="section form-section">
+    <h2>Vos coordonnées</h2>
+    <input type="text" id="nom" placeholder="Votre nom">
+    <input type="email" id="email" placeholder="Votre email">
+    <input type="tel" id="tel" placeholder="Votre numéro de téléphone">
+    <button class="btn" id="btn-devis">Demande de devis</button>
+    <div id="error-message" style="color:red; margin-top:10px; font-weight:bold;"></div>
+    </div>
 </div>
 
-<div class="section total">
-  Coût total : <span id="total">0 €</span>
-</div>
+<!-- FAQ -->
+<section class="faq">
+  <h2>FAQ – Questions fréquentes</h2>
+    <div class="faq-item">
+        <div class="faq-question">⏱ Combien de temps dure une prestation ? <span class="arrow">▶</span></div>
+        <div class="faq-answer">Cela dépend du forfait choisi : en moyenne entre 1h30 et 4h.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">💧 Quels produits utilisez-vous ? <span class="arrow">▶</span></div>
+        <div class="faq-answer">Uniquement des produits haut de gamme, respectueux de l’environnement.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">📍 Où se font les prestations ? <span class="arrow">▶</span></div>
+        <div class="faq-answer">Nous intervenons à domicile ou sur votre lieu de travail.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">🔒 Dois-je être présent pendant la prestation ? <span class="arrow">▶</span></div>
+        <div class="faq-answer">Non, il suffit de nous donner accès au véhicule. Nous vous contactons une fois terminé.</div>
+    </div>
+</section>
 
-<div class="section form-section">
-  <h2>Vos coordonnées</h2>
-  <input type="text" id="nom" placeholder="Votre nom">
-  <input type="email" id="email" placeholder="Votre email">
-  <input type="tel" id="tel" placeholder="Votre numéro de téléphone">
-  <button class="btn" id="btn-devis">Demande de devis</button>
-  <div id="error-message"></div>
-</div>
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Contactez-nous</h2>
+  <div class="contact-grid">
+    <div class="contact-item">
+      <span class="icon">📍</span>
+      <p><a href="https://maps.app.goo.gl/2PJCJWSrokRG772L6">408 Route du pont d'Agris<br>16560 Jauldes</a></p>
+    </div>
+    <div class="contact-item">
+      <span class="icon">📞</span>
+      <p><a href="tel:+33781041107">07 81 04 11 07</a></p>
+    </div>
+    <div class="contact-item">
+      <span class="icon">✉️</span>
+      <p><a href="mailto:motsoap.auto@gmail.com">motsoap.auto@gmail.com</a></p>
+    </div>
+  </div>
+</section>
 
-<script src="https://ton-cdn/config.js"></script>
+<!-- FOOTER -->
+<footer class="footer">
+  <p>Mot'Soap © 2024 - <a href="#" class="mentionslegales">Mentions Légales</a></p>
+</footer>
+  
+<!-- Script JS -->
+  <script src="js/script.js"></script>
+
 </body>
 </html>
